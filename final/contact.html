@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/validation.css">
+</head>
+<body>
+
+	<header>
+		<!-- header Start -->
+			<div class="grid_container">
+				<div class="grid300">
+					<img class="logo" src="images/qv-logo.png" alt="Queer Vibes Trip Advisory">
+				</div>
+				<div class="grid900">
+					<nav class="topNav">
+						<ul>
+							<li>
+								<a class="btn active" href="index.html">Home</a>
+							</li>
+							<li class="active">
+								<a class="btn" href="contact.html">Contact Us</a>
+							</li>
+							<li>
+								<a class="btn" href="about.html">About</a>
+							</li>
+							<li>
+								<a class="btn" href="travel.html">Travel</a>
+							</li>
+							<li>
+								<a class="btn" href="history.html">LGBT+ History</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		<!-- mobile nav -->
+			<nav class="topNav_mobile">
+				<ul>
+					<li>
+						<div class="hamburger_container">
+							<div class="hamburger"></div>
+							<div class="hamburger"></div>
+							<div class="hamburger"></div>
+						</div><!--hamburger_container-->
+					</li>
+					<div class="hidden_menu">
+						<li class="active">
+							<a class="btn active" href="index.html">Home</a>
+						</li>
+						<li>
+							<a class="btn" href="contact.html">Contact Us</a>
+						</li>
+						<li>
+							<a class="btn" href="about.html">About</a>
+						</li>
+						<li>
+							<a class="btn" href="travel.html">Travel</a>
+						</li>
+						<li>
+							<a class="btn" href="history.html">LGBT+ History</a>
+						</li>
+					</div><!--hidden menu-->
+				</ul>
+			</nav>
+
+		</header>
+
+<!-- main body content -->
+		<main>
+			<div class="grid_container">
+				<div class="grid900">
+						<form id="htmlform" method="post" action="">
+							<table>
+								<tr>
+									<div class="name">
+										<td>
+											<label for="name">Name</label>
+										</td>
+										<td>
+											<input type="text" name="Name" id="Name">
+										</td>
+										<td>
+											<span class="error">This field is required</span>
+										</td>
+									</div>
+								</tr>
+								
+							
+								<tr>
+									<div>
+										<td>
+											<label for="email">Email Address</label>
+										</td>
+										<td>
+											<input type="email" name="email" id="email">
+										</td>
+										<td>
+											<span class="error">A valid email is required</span>
+										</td>
+									</div>
+								</tr>
+								
+							
+								<tr>
+									<div>
+										<td>
+											<label for="message">Message</label>
+										</td>
+										<td>
+											<textarea name="message" id="contact_message"></textarea>
+										</td>
+										<td>
+											<span class="error">This field is required</span>
+										</td>
+									</div>
+								</tr>
+							</table>
+
+							<div>
+								<h4>Enter Your Postal Code to see if you're eligible for our Giveaway</h4>
+								<label for="postal-code" class="postal-code">Postal code</label>
+								<input type="text" name="postal-code" id="postal-code" placeholder="A1A 1A1">
+								
+
+							</div>
+
+							</br>
+							<div>
+								<h4>Which destination are you most interested in?</h4>
+									<table>
+										<tr>
+											<td>
+												<label for="iceland">
+													Iceland
+											</td>
+											<td>
+												<input type="checkbox" name="subject" id="iceland" value="iceland">
+											</td>
+											</label>
+										</tr>
+
+										<tr>
+											<td>
+												<label for="taiwan">
+													Taiwan
+											</td>
+											<td>
+												<input type="checkbox" name="subject" id="taiwan" value="taiwan">
+											</td>
+											</label>
+										</tr>
+										<tr>
+											<td>
+												<label for="argentina">
+													Argentina
+											</td>
+											<td>
+													<input type="checkbox" name="subject" id="argentina" value="argentina">
+												</label>
+											</td>
+										</tr>
+									</table>
+							</div>
+
+							<div>
+								<h3>Sign Up For Our Newsletter</h3>
+								<table>
+									<tr>
+										<td>
+											<label for="yes">
+												Yes, I want to recieve updates and special offers
+										</td>
+										<td>
+											<input type="radio" name="forms" id="yes" checked>
+										</td>
+										</label>
+									</tr>
+									<tr>
+										<td>
+										<label for="no">
+											No, I do not want to recieve updates and special offers
+										</td>
+										<td>
+											<input type="radio" name="forms" id="no">
+										</td>
+										</label>
+									</tr>
+								</table>		
+							</div>
+					<!-- submit button -->
+							<div class="submit" id="contact_submit">
+								<button id="submit" class="button" type="submit">Submit</button>
+							</div>
+						</form>
+				</div>
+				<div class="grid300">
+					<img width="100%" src="images/aurora.jpg" title="aurora borealis? at this time of year? at this time of day? in this part of the country? localized entirely within your kitchen?" alt="aurora">
+				</div><!--grid300-->
+			</div>
+		</main>
+
+<!-- footer start -->
+
+	<footer>
+			<div class="grid_container">
+				<div class="grid1200">
+					<div class="info" itemscope itemtype="http://schema.org/Person">
+						<span itemprop="name">Queer Vibes</span>
+					<div itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+						<span itemprop="streetAddress">1138 Real Street</span><br/>
+						<span itemprop="addressLocality">Ottawa</span>
+						<span itemprop="addressRegion">Ontario</span>
+						<span itemprop="addressCountry">Canada</span>
+						<span itemprop="PostalCode">K2G 1V8</span>
+					</div>
+					<span itemprop="telephone">613-727-4723</span>
+					</div>
+			<!-- &copy; is an HTML entity that will create copy symbol when used -->
+			<p class="copyright">Copyright &copy; 2018 Leslie Crone</p>
+			<div>
+				<ul class="socialmedia">
+					<li>
+						<img src="images/sm/twitter.png" class="social-media" alt="twitter">
+					</li>
+					<li>
+						<img src="images/sm/youtube.png" class="social-media" alt="youtube">
+					</li>
+					<li>
+						<img src="images/sm/facebook.png" class="social-media" alt="facebook">
+					</li>
+					<li>
+						<img src="images/sm/instagram.png" class="social-media" alt="instagram">
+					</li>
+				</ul>
+			</div>
+
+				</div>
+			</div> 
+
+		</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" src="scripts/validation.js"></script>
+</body>
+</html>

@@ -1,1 +1,53 @@
-/*contact form validation styles*/
+body {
+
+			font-family: sans-serif;
+		}
+
+		.input-container {
+			max-width: 400px;
+			margin: 20px;
+			overflow: hidden;
+		}
+
+		input[type=text], 
+		textarea,
+		input[type=email],
+		input[type=password],
+		select {
+
+			padding: 5px;
+			display: block;
+			float: left;
+			border: 1px solid gray;
+			box-sizing: border-box;
+			transition: all 0.3s ease-out;
+		}
+
+		label.input-label {
+			float: left;
+			width: 30%;
+			box-sizing: border-box;
+		}
+
+		
+
+/*--------------error---------------*/
+.error{
+	display: none;
+	margin-left: 10px;
+}		
+
+.error_show{
+	color: red;
+	margin-left: 10px;
+}
+
+input.invalid, textarea.invalid{
+	border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+	border: 2px solid green;
+}
+
+
